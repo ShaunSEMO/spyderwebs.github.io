@@ -1,0 +1,563 @@
+body {
+	height: 10000px;
+}
+
+ .navbar p {
+ 	font-size: 100% !important; 
+ }
+
+ .navbar {
+ 	background: rgba(250, 250, 250, 0.6);
+ 	border: none;
+ }
+
+ .hovering {
+ 	background-color: rgba(250, 250, 250, 0.6);
+ 	transition: 0.5s;
+ }
+
+ p {
+	font-size: 120% !important;
+	font-family: verdana, sans-serif;
+}
+
+/*Head Section*/
+#head {
+	width: 100%;
+	height: 630px;
+	z-index: 1;
+	overflow: auto;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.7);
+	background-attachment: fixed;
+
+}
+
+/*Navbar*/
+#navbar-logo {
+	font-family: verdana, sans-serif; 
+	font-size: 1.7em; 
+	font-weight: bold;
+	margin-left: 50px;
+	letter-spacing: 3px;
+	word-spacing: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+	#navbar-logo {
+		margin-left: 0;
+		letter-spacing: 0;
+	}
+ 
+}
+
+#navbar ul li a {
+	color: rgb(29,26,71);
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+/*End Navbar
+
+/*Header Content*/
+#head-content {
+	width: auto;
+	height: 400px;
+	text-align: center;
+	margin-top: 210px;
+}
+
+@media only screen and (max-width: 768px) {
+	#head-content {
+		margin-left: -20px;
+	}
+}
+
+@media only screen  and (min-width: 753px) {
+	#head-logo2 {
+		display: none;
+	}
+}
+
+
+.head-logoText {
+	font-size: 6em;
+	font-weight: bolder;
+	font-family: verdana, sans-serif;
+}
+
+#spyder {
+	color: red;
+}
+
+#webs {
+	color: rgb(29,26,71);
+}
+
+#head-logo3 {
+	background-color: #fff;
+	width: 350px;
+	display: none;
+}
+
+@media only screen and (max-width: 836px) {
+	#head-logo {
+		display: none;
+	}
+	#head-content {
+		margin-left: 5%;
+	}
+
+	#head-logo3 {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 394px) {
+	.head-logoText {
+		font-size: 3.5em;
+	}
+	#head-logo3 {
+		width: 220px;
+	}
+}
+
+#head-logo {
+	text-align: center;
+}
+
+#head-sub {
+	text-align: center;
+	width: 650px;
+	padding: 0;
+	margin-top: -1px;
+}
+
+@media only screen and (max-width: 690px) {
+	#head-sub {
+		width: auto;
+	}
+}
+
+#head-sub h2 {
+	background-color: white;
+	margin: 1px 1px 1px 1px;
+	color: rgb(29,26,71);
+}
+
+/*** Section 1 ***/
+
+#section-1 {
+	margin-top: 20px;
+	margin-left: 45px;
+}
+
+#aboutUs {
+	border-bottom: 4px solid red;
+	width: 230px;
+	margin-left: 0px;
+	text-align: left;
+}
+
+#aboutUs h1 {
+	color: rgb(29,26,71);
+	font-size: 3.1em;
+	font-family: verdana, sans-serif;
+
+}
+
+#aboutPar {
+	margin-top: 25px;
+	width: 1300px;
+}
+
+#aboutPar p {
+	font-size: 120%;
+	font-family: verdana, sans-serif;
+	color: rgb(29,26,71);
+	word-spacing: 4px;
+	letter-spacing: 3px;
+	line-height: 140%;
+}
+
+#aboutImgsGlobal {
+	margin-top: 35px;
+	margin-left: 10%; 
+	width: 1250px;
+}
+.aboutImgs {
+	width: 80%;
+	height: 80%;
+	margin-right: 100px;
+}
+
+@media only screen and (min-width: 1439px) {
+	#aboutImgsGlobal {
+		margin-left: 6%;
+	}
+	#aboutPar p {
+		font-size: 2.2em;
+		line-height: 
+	}
+}
+
+
+@media only screen and (max-width: 1394px) {
+	#aboutPar {
+		width: 1100px;
+	}
+	#aboutUs {
+		margin-left: 30px;
+	}
+
+	.aboutImgs {
+		width: 150px;
+		height: 150px;
+	}
+
+    #aboutImgsGlobal {
+	    width: 900px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1159px) {
+	#aboutPar {
+		width: 900px;
+	}
+}
+
+@media only screen and (max-width: 1041px) {
+	#section-1 {
+		margin-left: 10px;
+	}
+
+	#aboutUs {
+		margin-left: 7%;
+	}
+	#aboutPar p {
+		font-size: 1.8em;
+	}
+
+	#aboutPar {
+		width: 90%;
+	}
+
+	#aboutImgsGlobal {
+		width: 650px;
+		margin-left: 140px;
+	}
+	.aboutImgsCont {
+	    width: 200px;
+    }
+    #aboutImgs3 {
+	    width: 200px;
+   }
+}
+
+@media only screen and (max-width: 995px){
+	body {
+		text-align: center;
+	}
+	#head-content {
+		margin-left: -5%;
+	}
+	#section-1 {
+		margin-left: -5%;
+	}
+	#aboutPar {
+		margin-left: 15%;
+	}
+
+
+}
+
+@media only screen and (max-width: 821px) {
+	#aboutUs {
+		text-align: center;
+		margin-left: 42%;
+	}
+	#aboutPar p {
+		font-size: 1.5em;
+	}
+
+	#aboutPar {
+		text-align: center;
+		width: 90%;
+		margin-left: 12%;
+	}
+	.aboutImgsCont {
+		display: inline-block;
+	}
+	#aboutImgsGlobal {
+		width: 95%;
+		margin-left: 8%;
+	}
+
+}
+
+@media only screen and (max-width: 450px){
+	#aboutUs {
+		margin-left: 27%;
+	}
+}
+
+@media only screen and (max-width: 380px){
+	#aboutUs {
+		margin-left: 20%;
+	}
+	#aboutPar {
+		margin-left: 12%;
+	}
+}
+
+@media only screen and (max-width: 330px){
+	#aboutUs {
+		margin-left: 15%;
+		width: 77%;
+	}
+	#aboutUs h1 {
+		font-size: 3.7rem;
+	}
+	#section-1 {
+		width: 100%;
+	}
+	#aboutPar p {
+		font-size: 1.4em;
+		line-height: 100%;
+		letter-spacing: 100%;
+		word-spacing: 90%;
+	}
+	#aboutPar {
+		margin-left: 8%;
+	}
+}
+
+/*** Section 2 **/
+
+#section-2 {
+	margin-top: 20px;
+	width: 100%;
+	background-color: rgb(244,244,244);
+	padding-bottom: 5%;
+}
+
+#services {
+    border-bottom: 4px solid red;
+	width: 230px;
+	margin-left: 1.5%;
+	text-align: left;
+}
+
+#services h1 {
+	color: rgb(29,26,71);
+	font-size: 3.1em;
+	font-family: verdana, sans-serif;
+}
+
+#servicesSub {
+	margin-top: 3%;
+	width: 100%;
+}
+
+#servicesSub p {
+	font-size: 1.5em;
+	font-family: verdana, sans-serif;
+	color: rgb(29,26,71);
+	word-spacing: 4px;
+	letter-spacing: 3px;
+	line-height: 140%;
+}
+
+.eachServiceRight {
+	background-color: rgb(225,225,225);
+}
+.eachServiceLeft {
+	background-color: rgb(235,235,235);
+}
+
+.eachService {
+	width: 90%;
+}
+.eachService p {
+	font-size: 120%;
+	word-spacing: 2px;
+	letter-spacing: 3px;
+	font-family: verdana, sans-serif;
+	width: 80%;
+	margin-top: 2%;
+}
+
+.eachService img {
+	width: 16%;
+	height: 16%;
+}
+
+#processPar {
+	color: rgb(29,26,71);
+	font-size: 145%;
+	text-align: center;
+
+}
+
+@media only screen and (max-width: 425px) {
+	 p {
+	font-size: 100% !important;
+    }
+	#services {
+		margin: auto;
+	}
+	.eachService p {
+		float: none !important;
+		width: 60%;
+	}
+	.eachService img {
+		float: none !important;
+		display: block;
+		margin-left: 25%;
+		width: 50%;
+		height: 50%;
+	}
+}
+
+/** section2 responsive **/
+
+/** Section 2: Services; **/
+
+
+----------------------------------------------------------
+
+/**Section 3: Pricing; **/
+#section3 h2, #section3 h3, #section3 h4, #section3 h5, #section3 h6, #section3 li, #section3 span {
+	list-style-type: none;
+	font-size: 140%;
+	font-family: verdana, sans-serif;
+	color: rgb(29,26,71);
+}
+
+#section3 p {
+	font-size: 100% !important;
+	margin-left: -10%;
+}
+
+.pricing {
+    position: relative;
+    text-align: center;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+    z-index: 11;
+    margin: 15px 0px;
+}
+
+.pricing::after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s height;
+    transition: 0.2s height;
+}
+
+
+.pricing .price-head {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pricing .price-title {
+    display: block;
+    padding: 40px 0px 20px;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+
+.pricing .price {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: red;
+}
+.pricing .price2 {
+    border-color: rgb(29,26,71) !important;
+}
+
+.pricing .price h3 {
+  font-size: 42px;
+  margin: 0px;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+/** Section 3 **/
+
+-----------------------------------------------
+
+input[type=text], select, textarea {
+	width: 90%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	display: block;
+}
+
+
+input {
+	width: 90%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	display: block;
+}
+
+input[type=submit] {
+	background-color: rgb(29,26,71);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: red;
+	transition: 0.3s;
+}
+
+.contactForm {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px; 
+}
+
+label {
+	font-size: 120%;
+	font-family: verdana,sans-serif;
+	color: rgb(29,26,71);
+
+}
